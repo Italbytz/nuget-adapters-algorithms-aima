@@ -1,0 +1,45 @@
+{
+  "metadata": [
+    {
+      "src": [
+        {
+          "src": "../Italbytz.Adapters.Algorithms.AIMA",
+          "files": [
+            "Italbytz.Adapters.Algorithms.AIMA/*.csproj"
+          ]
+        }
+      ],
+      "dest": "api"
+    }
+  ],
+  "build": {
+    "content": [
+      {
+        "files": [
+          "**/*.{md,yml}"
+        ],
+        "exclude": [
+          "_site/**"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "images/**"
+        ]
+      }
+    ],
+    "output": "_site",
+    "template": [
+      "default",
+      "modern"
+    ],
+    "globalMetadata": {
+      "_appName": "Italbytz.Adapters.Algorithms.AIMA",
+      "_appTitle": "Italbytz.Adapters.Algorithms.AIMA",
+      "_enableSearch": true,
+      "pdf": false
+    }
+  }
+}

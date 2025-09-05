@@ -1,0 +1,45 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <Nullable>enable</Nullable>
+        <PackageVersion>9.0.0</PackageVersion>
+        <Authors>Robin Nunkesser</Authors>
+        <PackageProjectUrl>https://github.com/Italbytz/nuget-adapters-algorithms-aima</PackageProjectUrl>
+        <Description>Some algorithm adapters to use with Ports and Adapters.</Description>
+        <PackOnBuild>true</PackOnBuild>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackageReadmeFile>introduction.md</PackageReadmeFile>
+        <TargetFrameworks>net8.0;net9.0</TargetFrameworks>
+        <RepositoryUrl>https://github.com/Italbytz/nuget-adapters-algorithms-aima</RepositoryUrl>
+        <LangVersion>12</LangVersion>
+        <PackRelease>true</PackRelease>
+        <IncludeSource>true</IncludeSource>
+        <GenerateDocumentationFile>true</GenerateDocumentationFile>
+        <RootNamespace>Italbytz.AI</RootNamespace>
+        <ImplicitUsings>enable</ImplicitUsings>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Content Include="Learning\.DS_Store" />
+      <Content Include="Logic\.DS_Store" />
+      <Content Include="Search\.DS_Store" />
+      <Content Include="Util\.DS_Store" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <None Include="../../docfx/docs/introduction.md" Pack="true" PackagePath="\"/>
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Italbytz.Adapters.Algorithms.AI" Version="9.9.1" />
+      <PackageReference Include="Italbytz.Ports.Algorithms.AIMA" Version="9.0.0" />
+      <PackageReference Include="LpSolveDotNet.Native.linux-x64" Version="4.1.0" />
+      <PackageReference Include="LpSolveDotNet.Native.linux-x86" Version="4.1.0" />
+      <PackageReference Include="LpSolveDotNet.Native.osx-x86" Version="4.1.0" />
+      <PackageReference Include="LpSolveDotNet.Native.win-x64" Version="4.1.0" />
+      <PackageReference Include="LpSolveDotNet.Native.win-x86" Version="4.1.0" />
+      <PackageReference Include="Microsoft.Extensions.Logging" Version="9.0.8" />
+      <PackageReference Include="Microsoft.Extensions.Logging.Console" Version="9.0.8" />
+    </ItemGroup>
+
+</Project>
