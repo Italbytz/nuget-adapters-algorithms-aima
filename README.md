@@ -2,6 +2,15 @@
 
 [![deprecated](https://img.shields.io/badge/status-DEPRECATED-red?style=flat-square)](DEPRECATED.md) **This package is deprecated and will be removed on June 30, 2026.**
 
+## See Also
+
+This package has been superseded by [`nuget-ai`](https://github.com/RobinNunkesser/work/tree/main/artifacts/packages/dotnet/nuget-ai).
+
+## See Also
+
+This package has been superseded by **[`nuget-foundation`](https://github.com/RobinNunkesser/work/tree/main/artifacts/packages/dotnet/nuget-foundation)**.
+
+
 
 
 The [Hexagonal Architecture](https://web.archive.org/web/20180822100852/http://alistair.cockburn.us/Hexagonal+architecture), also known as the Ports and Adapters pattern, is a design approach that emphasizes separation of concerns by isolating the core application logic from external systems like databases, user interfaces, or APIs. This is achieved through the use of "ports" (interfaces) and "adapters" (implementations), enabling easier testing, maintainability, and flexibility in swapping external dependencies without affecting the core logic.
