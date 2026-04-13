@@ -6,13 +6,6 @@
 
 This package has been superseded by [`nuget-ai`](https://github.com/italbytz/nuget-ai).
 
-## See Also
-
-This package has been superseded by **[`nuget-foundation`](https://github.com/italbytz/nuget-foundation)**.
-
-
-
-
 The [Hexagonal Architecture](https://web.archive.org/web/20180822100852/http://alistair.cockburn.us/Hexagonal+architecture), also known as the Ports and Adapters pattern, is a design approach that emphasizes separation of concerns by isolating the core application logic from external systems like databases, user interfaces, or APIs. This is achieved through the use of "ports" (interfaces) and "adapters" (implementations), enabling easier testing, maintainability, and flexibility in swapping external dependencies without affecting the core logic.
 
 This repository provides C# adapters for many of the algorithms in [Russell](http://www.cs.berkeley.edu/~russell/) and [Norvig's](http://www.norvig.com/) [Artificial Intelligence - A Modern Approach](http://aima.cs.berkeley.edu/)(AIMA). The NuGet package is called [Italbytz.Adapters.Algorithms.AIMA](https://www.nuget.org/packages/Italbytz.Adapters.Algorithms.AIMA) and offers a [docfx](https://italbytz.github.io/nuget-adapters-algorithms-ai/) page. The corresponding ports are in the NuGet package [Italbytz.Ports.Algorithms.AIMA](https://www.nuget.org/packages/Italbytz.Ports.Algorithms.AIMA) (Source: [nuget-ports-algorithms-ai](https://github.com/Italbytz/nuget-ports-algorithms-ai)).
