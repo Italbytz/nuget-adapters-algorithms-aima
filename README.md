@@ -49,4 +49,4 @@ Here is a table of algorithms, the figure, name of the code in the book, and the
 
 # Getting Started
 
-[csharp-mstest-ai](https://github.com/RobinNunkesser/csharp-mstest-ai) contains a set of unit tests demonstrating the use of the provided ports and adapters.
+The migrated legacy sample snapshot now lives in [nuget-ai/samples/legacy-aima-mstest](../../../dotnet/nuget-ai/samples/legacy-aima-mstest/README.md) and preserves the older unit tests demonstrating the use of the provided ports and adapters.
